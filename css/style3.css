@@ -11,7 +11,25 @@ body{
     padding: 30px;
     background-color: darkgreen;
 }
-.pic{
+img.pic{
     width:20%;
-    height:auto;
+    background-color: lightgreen;
+    padding:20px;
+}
+.name{
+    padding:0px;
+    background-color: lightseagreen;
+}
+.office{
+    padding:0px;
+    background-color: greenyellow;
+}
+#faculty{
+    padding:50px;
+    background-color: mediumspringgreen;
+    border-radius: 25px;
+}
+h2{
+    font-size:60pt;
+    margin-top: 0px;
 }
