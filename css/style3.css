@@ -9,5 +9,9 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #aaaaaa;
+    background-color: darkgreen;
+}
+.pic{
+    width:20%;
+    height:auto;
 }
