@@ -9,27 +9,69 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: darkgreen;
-}
-img.pic{
-    width:20%;
-    background-color: lightgreen;
-    padding:20px;
-}
-.name{
-    padding:0px;
-    background-color: lightseagreen;
-}
-.office{
-    padding:0px;
-    background-color: greenyellow;
-}
-#faculty{
-    padding:50px;
-    background-color: mediumspringgreen;
-    border-radius: 25px;
+    background-color: transparent;
 }
 h2{
-    font-size:60pt;
-    margin-top: 0px;
+    font-size:30pt;
+    text-align: center;
 }
+img.pic{
+    height: 150px;
+}
+
+#faculty{
+    padding:20px;
+    background-color: maroon;
+    border-radius: 25px;
+}
+#faculty ul li{
+    display: inline-block;
+    padding: 20px;
+}
+#faculty ul {
+    display: inline-block;
+    padding: 0;
+}
+.name{
+    text-align: center;
+}
+.office{
+    text-align: center;
+}
+#main-title {
+    text-align: center;
+    font-size: 40pt;
+}
+#style ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: maroon;
+}
+
+#style li {
+    float: left; /*explore what happens if this is 'right' instead*/
+}
+
+#style li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /*this adds some spacing around the items in my style footer*/
+    text-decoration: none;
+}
+
+/* Change the link color to #000 (black) on hover */
+#style li a:hover {
+    background-color: #000;
+}
+
+#style {
+    position: fixed;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 55px;
+}
+
