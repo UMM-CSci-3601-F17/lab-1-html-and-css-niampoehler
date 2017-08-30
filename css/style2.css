@@ -16,16 +16,29 @@ body{
     text-align: center;
     padding-top:50px;
     padding-bottom:50px;
-    background-color: darkgrey;
+    background-color: slategray;
 }
-.pslo{
-    background-color: green;
+#style li:hover{
+    background-color: #7d8d9c;
+}
+#style{
+    position:absolute;
+    top:55px;
+    left:-33px;
 }
 #style li{
-    background-color: darkgrey;
-    padding:20px;
-    float:left;
+    font-family: 'PT Sans', sans-serif;
+    background-color: slategray;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:31px;
+    padding-bottom:31px;
 }
 #style ul{
     list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
 }
