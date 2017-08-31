@@ -13,7 +13,7 @@ body{
 }
 
 h2{
-    font-size:30pt;
+    font-size:35pt;
     text-align: center;
 }
 
@@ -23,31 +23,49 @@ img.pic{
 
 .section {
     border-radius: 25px;
-    padding: 20px;
-    border: 5px solid;
-    margin: 0 auto;
+    padding: 20px 0;
     margin-top: 50px;
-    max-width: 1500px;]
+    width: 100%;
+    max-width: 1500px;
     display: inline-block;
-    background-color: white;
+    background-color: rgba(255,255,255,.75);
 }
+
 #faculty ul li{
     display: inline-block;
     padding: 20px;
 }
 
 #faculty ul {
-    display: inline-block;
+    display: block;
     padding: 0;
+    max-width: 754px;
+    margin: 0 auto;
+
 }
 
 #pslo {
-    margin-top: 100px;
+    margin-top: 0;
+}
+
+#pslo ol {
+    font-size: 28px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#courses ul{
+    font-size: 28px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .name, .office{
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
+
 #main-title {
     text-align: center;
     font-size: 60pt;
@@ -58,39 +76,35 @@ img.pic{
 #style ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: maroon;
+    background-color: rgba(255,255,255,.75);
     display: inline-block;
     padding: 0;
-    width: 50%;
+    width: 100%;
     margin-top: 0;
-    margin-right: 25%;
-    margin-left: 25%;
-    margin-bottom: 0;
-
 }
 
 #style li {
-    float: left; /*explore what happens if this is 'right' instead*/
+    float: left;
 }
 
 #style li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px; /*this adds some spacing around the items in my style footer*/
     text-decoration: none;
 }
 
 #style li a:hover {
-    background-color: #000;
+    background-color: rgba(128,128,128,0.75);
 }
 
 #style {
-    position: absolute;
+    position: fixed;
     background-color: transparent;
     left: 0;
     right: 0;
-    top: 175px;
+    top: 0;
     height: 55px;
 }
 
