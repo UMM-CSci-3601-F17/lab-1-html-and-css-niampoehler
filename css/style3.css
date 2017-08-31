@@ -7,6 +7,9 @@ use float to make something locate itself on the right or left
 
 */
 
+/*
+This rule changes the background of the entire page and makes it an image I found online instead of a solid color.
+ */
 body{
     padding: 30px;
     background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-53322.jpg");
@@ -20,22 +23,32 @@ h2{
 img.pic{
     height: 150px;
 }
-
-.section {
+/*
+This rule makes it so the divs within the style class and the main-title id are centered on the page.
+This also makes the divs are semi-transparent and they have a curve around the points.
+ */
+.section, #main-title{
     border-radius: 25px;
     padding: 20px 0;
     margin-top: 50px;
     width: 100%;
-    max-width: 2000px;
+    max-width: 1500px;
     display: inline-block;
     background-color: rgba(255,255,255,.75);
 }
 
+/*
+This rule makes it so the faculty photos are in a horizontal line rather than a vertical line.
+ */
 #faculty ul li{
     display: inline-block;
     padding: 20px;
 }
 
+/*
+This rule allows the faculty photos to be centered within the div rather than off to the left.
+This is also an example of nesting.
+ */
 #faculty ul {
     display: block;
     padding: 0;
@@ -60,6 +73,9 @@ img.pic{
     padding-right: 75px;
 }
 
+/*
+Example of grouping and also an example of a class.
+ */
 .name, .office{
     text-align: center;
     font-size: 24px;
@@ -69,8 +85,7 @@ img.pic{
 #main-title {
     text-align: center;
     font-size: 60pt;
-    color: white;
-
+    color: black;
 }
 
 #style ul {
@@ -99,8 +114,12 @@ img.pic{
     background-color: rgba(128,128,128,0.75);
 }
 
+/*
+With this rule, I made it to the nav bar is always at the top and it is semi-transparent.
+Also, this is an example of an id.
+ */
 #style {
-    position: fixed;
+    position: absolute;
     background-color: transparent;
     left: 0;
     right: 0;
