@@ -9,5 +9,102 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #aaaaaa;
+    background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-53322.jpg");
 }
+
+h2{
+    font-size:35pt;
+    text-align: center;
+}
+
+img.pic{
+    height: 150px;
+}
+
+.section {
+    border-radius: 25px;
+    padding: 20px 0;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 2000px;
+    display: inline-block;
+    background-color: rgba(255,255,255,.75);
+}
+
+#faculty ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+#faculty ul {
+    display: block;
+    padding: 0;
+    max-width: 754px;
+    margin: 0 auto;
+
+}
+
+#pslo {
+    margin-top: 0;
+}
+
+#pslo ol {
+    font-size: 28px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#courses ul{
+    font-size: 28px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.name, .office{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#main-title {
+    text-align: center;
+    font-size: 60pt;
+    color: white;
+
+}
+
+#style ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(255,255,255,.75);
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+#style li {
+    float: left;
+}
+
+#style li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px; /*this adds some spacing around the items in my style footer*/
+    text-decoration: none;
+}
+
+#style li a:hover {
+    background-color: rgba(128,128,128,0.75);
+}
+
+#style {
+    position: fixed;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 55px;
+}
+

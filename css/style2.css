@@ -11,14 +11,20 @@ body{
     background-color: rgba(195, 159, 14, 0.67);
     font-family: 'PT Sans', sans-serif;
 }
+
 #main-title{
     font-size: 50pt;
-    text-align: center;
     padding-top:50px;
     padding-bottom:50px;
     background-color: slategray;
     margin-left:60px;
     margin-right:60px;
+}
+
+/*An example of Grouping. I use this rule to force the main elements to text-align centrally + bold*/
+#main-title,h2{
+    text-align: center;
+    font-weight: bold;
 }
 #style li:hover{
     background-color: #7d8d9c;
@@ -28,6 +34,8 @@ body{
     top:40px;
     left:33px;
 }
+
+/*This is an example of Nesting. I used these rules (float, padding, color) to style the buttons correctly.*/
 #style li{
     float:left;
     font-family: 'PT Sans', sans-serif;
@@ -37,16 +45,21 @@ body{
     padding-top:15px;
     padding-bottom:15px;
 }
+
+/*I changed the list-style here because I wanted to display the button's
+without the bullet-point showing up*/
 #style ul{
     list-style-type:none;
 }
 
+/*Changed list-style type to upper-roman, a more aesthetic bullet-point style*/
 #pslo li{
     list-style-type:upper-roman;
-    padding-top:0px;
+    padding-top:0;
     padding-bottom:15px;
 }
 
+/*This rule removes the underline on links, which is unattractive on button-style links.*/
 a{
     text-decoration: none;
     color:black;
@@ -58,14 +71,13 @@ a{
 }
 h2{
     background-color: #5d6c7d;
-    text-align: center;
     padding:30px;
     font-size:20pt;
 }
 
 #courses li{
     list-style-type:square;
-    padding-top:0px;
+    padding-top:0;
     padding-bottom:5px;
 }
 #faculty>ul>li {
@@ -80,18 +92,4 @@ h2{
 
 img.pic {
     height: 200px;
-}
-.name{
-    
-}
-
-img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: 0.7;
-}
-img:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    opacity: 1;
 }
