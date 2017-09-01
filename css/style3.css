@@ -25,7 +25,7 @@ img.pic{
 }
 /*
 This rule makes it so the divs within the style class and the main-title id are centered on the page.
-This also makes the divs are semi-transparent and they have a curve around the points.
+This also makes the divs are semi-transparent and they have a curve around the edges.
  */
 .section, #main-title{
     border-radius: 25px;
@@ -115,7 +115,7 @@ Example of grouping and also an example of a class.
 }
 
 /*
-With this rule, I made it to the nav bar is always at the top and it is semi-transparent.
+With this rule, I made it so the nav bar is always at the top and it is semi-transparent.
 Also, this is an example of an id.
  */
 #style {
