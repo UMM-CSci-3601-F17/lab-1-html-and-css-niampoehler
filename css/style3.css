@@ -32,7 +32,6 @@ This also makes the divs are semi-transparent and they have a curve around the e
     padding: 20px 0;
     margin-top: 50px;
     width: 100%;
-    max-width: 1500px;
     display: inline-block;
     background-color: rgba(255,255,255,.75);
 }
